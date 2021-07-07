@@ -23,10 +23,10 @@ img {
   --header-height: 4.5rem;
   /* colors */
   /* posso mudar o hue pra mudar todas as cores, as % também*/
-  --hue: 146;
-  --base-color: hsl(var(--hue) 28% 33%);
-  --base-color-second: hsl(var(--hue) 30% 77%);
-  --base-color-alt: hsl(var(--hue) 31% 38%);
+  --hue: 216;
+  --base-color: hsl(var(--hue) 28% 45%);
+  --base-color-second: hsl(var(--hue) 50% 89%);
+  --base-color-alt: hsl(var(--hue) 28% 41.5%);
   --title-color: hsl(var(--hue) 41% 10%);
   --text-color: hsl(0 0% 46%);
   --text-color-light: hsl(0 0% 98%);
@@ -334,6 +334,10 @@ nav.show div.icon-close {
 }
 
 /* -------------- SERVICES ---------------- */
+#services i {
+  font-size: 2.8rem;
+}
+
 .cards.grid {
   gap: 1.5rem;
 }
@@ -487,7 +491,7 @@ footer .social a:hover {
 /* -------------- BACK TO TOP ---------------- */
 .back-to-top {
   background: var(--base-color);
-  color: var(--text-color-light);
+  color: var(--base-color-second);
   position: fixed;
   clip-path: circle();
   padding: 0.7rem;
